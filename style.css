@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center; 
+  width: 90%; 
+  max-width: 600px; 
+  overflow-y: auto; 
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center; 
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%; 
+  max-width: 300px; 
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+}
+
+button#clearButton {
+  background-color: #ffcccc;
+}
+
+button#clearButton:hover {
+  background-color: #ff9999;
+}
+
+button#clearAllButton {
+  margin-top: 20px;
+  background-color: #f8b1d3;  /* Barbie Pink */
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  width: 100%; 
+  max-width: 300px; 
+}
+
+button#clearAllButton:hover {
+  background-color: #f59cc2;
+}
